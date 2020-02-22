@@ -16,12 +16,18 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <aurora.pack.version>-71cc238981-1</aurora.pack.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.mariane-muniz.aurora</groupId>
+            <artifactId>aurora</artifactId>
+            <version>${aurora.pack.version}</version>
         </dependency>
     </dependencies>
 
@@ -47,5 +53,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
 </project>
