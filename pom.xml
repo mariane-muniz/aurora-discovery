@@ -24,11 +24,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.github.mariane-muniz.aurora</groupId>
-            <artifactId>aurora</artifactId>
-            <version>${aurora.pack.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.mariane-muniz.aurora</groupId>-->
+<!--            <artifactId>aurora</artifactId>-->
+<!--            <version>${aurora.pack.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 
 
@@ -54,11 +54,11 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>jitpack.io</id>-->
+<!--            <url>https://jitpack.io</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
 </project>
