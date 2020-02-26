@@ -1,7 +1,6 @@
-cloud:
-  config:
-    uri: http://localhost:8084
-
 spring:
+  cloud:
+    config:
+      uri: http://configuration-server.com:8084
   application:
     name: aurora-registry
