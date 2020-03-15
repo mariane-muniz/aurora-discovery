@@ -6,3 +6,7 @@ spring:
       uri: http://configuration-server.com:8084
   application:
     name: aurora-registry
+  profiles: default
+logging:
+  pattern:
+    level: WARN
