@@ -3,7 +3,7 @@ spring:
     base-url: http://192.168.0.50:9411
   cloud:
     config:
-      uri: http://configuration-server.com:8084
+      uri: http://configuration-server.com:31000
   application:
     name: aurora-registry
   profiles: default
