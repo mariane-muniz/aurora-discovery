@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aurora-discovery-deployment
+spec:
+  selector:
+    matchLabels:
+      run: discovery
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: discovery
+    spec:
+      containers:
+        - name: discovery
+          image: marianemuniz/aurora-discovery:latest
+          restartPolicy: Always
+          ports:
+            - containerPort: 8081
+      dnsPolicy: ClusterFirst
