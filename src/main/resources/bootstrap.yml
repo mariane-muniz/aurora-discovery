@@ -4,7 +4,7 @@ spring:
       uri: http://configuration-server.com:8084
   application:
     name: aurora-discovry
-  profiles: default
+  profiles: develop
 logging:
   pattern:
     level: WARN
