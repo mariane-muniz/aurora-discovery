@@ -7,4 +7,4 @@ spring:
   profiles: develop
 logging:
   pattern:
-    level: WARN
+    level: DEBUG
