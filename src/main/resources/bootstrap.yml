@@ -1,10 +1,6 @@
 spring:
+  application:
+    name: aurora-discovery
   cloud:
     config:
       uri: http://configuration-server.com:8084
-  application:
-    name: aurora-discovry
-  profiles: develop
-logging:
-  pattern:
-    level: DEBUG
